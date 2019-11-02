@@ -1,0 +1,68 @@
+game/away/names/seo,game/away/names/short,game/away/score,game/away/seed,game/away/winner,game/bracketRegion,game/bracketRound,game/home/names/seo,game/home/names/short,game/home/score,game/home/seed,game/home/winner
+fairleigh-dickinson,Fairleigh D'son,82,16,true,,First Four&#174;,prairie-view,Prairie View A&M,76,16,false
+temple,Temple,70,11,false,,First Four&#174;,belmont,Belmont,81,11,true
+nc-central,N.C. Central,74,16,false,,First Four&#174;,north-dakota-st,North Dakota St.,78,16,true
+st-johns-ny,St. John's ,65,11,false,,First Four&#174;,arizona-st,Arizona St.,74,11,true
+minnesota,Minnesota,86,10,true,East,First Round,louisville,Louisville,76,7,false
+yale,Yale,74,14,false,East,First Round,lsu,LSU,79,3,true
+new-mexico-st,New Mexico St.,77,12,false,Midwest,First Round,auburn,Auburn,78,5,true
+vermont,Vermont,69,13,false,West,First Round,florida-st,Florida State,76,4,true
+bradley,Bradley,65,15,false,East,First Round,michigan-st,Mich. St. ,76,2,true
+belmont,Belmont,77,11,false,East,First Round,maryland,Maryland,79,6,true
+northeastern,Northeastern,53,13,false,Midwest,First Round,kansas,Kansas,87,4,true
+murray-st,Murray State,83,12,true,West,First Round,marquette,Marquette,64,5,false
+florida,Florida,70,10,true,West,First Round,nevada,Nevada,61,7,false
+abilene-christian,Abilene Christian,44,15,false,Midwest,First Round,kentucky,Kentucky,79,2,true
+fairleigh-dickinson,Fairleigh D'son,49,16,false,West,First Round,gonzaga,Gonzaga,87,1,true
+st-marys-ca,St. Mary's (Cal.),57,11,false,South,First Round,villanova,Villanova,61,6,true
+seton-hall,Seton Hall,68,10,false,Midwest,First Round,wofford,Wofford,84,7,true
+montana,Montana,55,15,false,West,First Round,michigan,Michigan,74,2,true
+baylor,Baylor,78,9,true,West,First Round,syracuse,Syracuse,69,8,false
+old-dominion,Old Dominion,48,14,false,South,First Round,purdue,Purdue,61,3,true
+iowa,Iowa,79,10,true,South,First Round,cincinnati,Cincinnati,72,7,false
+oklahoma,Oklahoma,95,9,true,South,First Round,ole-miss,Ole Miss,72,8,false
+northern-ky,Northern Kentucky,57,14,false,West,First Round,texas-tech,Texas Tech,72,3,true
+uc-irvine,UC Irvine,70,13,true,South,First Round,kansas-st,Kansas St.,64,4,false
+colgate,Colgate,70,15,false,South,First Round,tennessee,Tennessee,77,2,true
+gardner-webb,Gardner-Webb,56,16,false,South,First Round,virginia,Virginia,71,1,true
+arizona-st,Arizona St.,74,11,false,West,First Round,buffalo,Buffalo,91,6,true
+oregon,Oregon,72,12,true,South,First Round,wisconsin,Wisconsin,54,5,false
+washington,Washington,78,9,true,Midwest,First Round,utah-st,Utah State,61,8,false
+north-dakota-st,North Dakota St.,62,16,false,East,First Round,duke,Duke,85,1,true
+georgia-st,Georgia State,55,14,false,Midwest,First Round,houston,Houston,84,3,true
+liberty,Liberty,80,12,true,East,First Round,mississippi-st,Mississippi St.,76,5,false
+iona,Iona,73,16,false,Midwest,First Round,north-carolina,North Carolina,88,1,true
+ucf,UCF,73,9,true,East,First Round,vcu,VCU,58,8,false
+ohio-st,Ohio St. ,62,11,true,Midwest,First Round,iowa-st,Iowa State,59,6,false
+saint-louis,Saint Louis,52,13,false,East,First Round,virginia-tech,Virginia Tech,66,4,true
+maryland,Maryland,67,6,false,East,Second Round,lsu,LSU,69,3,true
+wofford,Wofford,56,7,false,Midwest,Second Round,kentucky,Kentucky,62,2,true
+florida,Florida,49,10,false,West,Second Round,michigan,Michigan,64,2,true
+murray-st,Murray State,62,12,false,West,Second Round,florida-st,Florida State,90,4,true
+baylor,Baylor,71,9,false,West,Second Round,gonzaga,Gonzaga,83,1,true
+minnesota,Minnesota,50,10,false,East,Second Round,michigan-st,Mich. St. ,70,2,true
+villanova,Villanova,61,6,false,South,Second Round,purdue,Purdue,87,3,true
+auburn,Auburn,89,5,true,Midwest,Second Round,kansas,Kansas,75,4,false
+iowa,Iowa,77,10,false,South,Second Round,tennessee,Tennessee,83,2,true
+washington,Washington,59,9,false,Midwest,Second Round,north-carolina,North Carolina,81,1,true
+ucf,UCF,76,9,false,East,Second Round,duke,Duke,77,1,true
+buffalo,Buffalo,58,6,false,West,Second Round,texas-tech,Texas Tech,78,3,true
+liberty,Liberty,58,12,false,East,Second Round,virginia-tech,Virginia Tech,67,4,true
+oklahoma,Oklahoma,51,9,false,South,Second Round,virginia,Virginia,63,1,true
+ohio-st,Ohio St. ,59,11,false,Midwest,Second Round,houston,Houston,74,3,true
+uc-irvine,UC Irvine,54,13,false,South,Second Round,oregon,Oregon,73,12,true
+florida-st,Florida State,58,4,false,West,Sweet 16&#174;,gonzaga,Gonzaga,72,1,true
+purdue,Purdue,99,3,true,South,Sweet 16&#174;,tennessee,Tennessee,94,2,false
+texas-tech,Texas Tech,63,3,true,West,Sweet 16&#174;,michigan,Michigan,44,2,false
+oregon,Oregon,49,12,false,South,Sweet 16&#174;,virginia,Virginia,53,1,true
+lsu,LSU,63,3,false,East,Sweet 16&#174;,michigan-st,Mich. St. ,80,2,true
+auburn,Auburn,97,5,true,Midwest,Sweet 16&#174;,north-carolina,North Carolina,80,1,false
+virginia-tech,Virginia Tech,73,4,false,East,Sweet 16&#174;,duke,Duke,75,1,true
+houston,Houston,58,3,false,Midwest,Sweet 16&#174;,kentucky,Kentucky,62,2,true
+texas-tech,Texas Tech,75,3,true,West,Elite Eight&#174;,gonzaga,Gonzaga,69,1,false
+purdue,Purdue,75,3,false,South,Elite Eight&#174;,virginia,Virginia,80,1,true
+auburn,Auburn,77,5,true,Midwest,Elite Eight&#174;,kentucky,Kentucky,71,2,false
+michigan-st,Mich. St. ,68,2,true,East,Elite Eight&#174;,duke,Duke,67,1,false
+auburn,Auburn,62,5,false,,FINAL FOUR&#174;,virginia,Virginia,63,1,true
+texas-tech,Texas Tech,61,3,true,,FINAL FOUR&#174;,michigan-st,Mich. St. ,51,2,false
+texas-tech,Texas Tech,77,3,false,,Championship,virginia,Virginia,85,1,true

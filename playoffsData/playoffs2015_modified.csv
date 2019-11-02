@@ -1,0 +1,68 @@
+game/away/names/seo,game/away/names/short,game/away/score,game/away/seed,game/away/winner,game/bracketRegion,game/bracketRound,game/home/names/seo,game/home/names/short,game/home/score,game/home/seed,game/home/winner
+hampton,Hampton,74,16,true,,First Four&#174;,manhattan,Manhattan,64,16,false
+byu,BYU,90,11,false,,First Four&#174;,ole-miss,Ole Miss,94,11,true
+robert-morris,Robert Morris,81,16,true,,First Four&#174;,north-florida,North Florida,77,16,false
+dayton,Dayton,56,11,true,,First Four&#174;,boise-st,Boise St.,55,11,false
+northeastern,Northeastern,65,14,false,MIDWEST,Second Round,notre-dame,Notre Dame,69,3,true
+uab,UAB,60,14,true,SOUTH,Second Round,iowa-st,Iowa St.,59,3,false
+georgia-st,Georgia St.,57,14,true,WEST,Second Round,baylor,Baylor,56,3,false
+texas-southern,Texas Southern,72,15,false,WEST,Second Round,arizona,Arizona,93,2,true
+texas,Texas,48,11,false,MIDWEST,Second Round,butler,Butler,56,6,true
+ucla,UCLA,60,11,true,SOUTH,Second Round,smu,SMU,59,6,false
+ole-miss,Ole Miss,57,11,false,WEST,Second Round,xavier,Xavier,76,6,true
+ohio-st,Ohio St.,75,10,true,WEST,Second Round,vcu,VCU,72,7,false
+lafayette,Lafayette,52,16,false,EAST,Second Round,villanova,Villanova,93,1,true
+purdue,Purdue,65,9,false,MIDWEST,Second Round,cincinnati,Cincinnati,66,8,true
+harvard,Harvard,65,13,false,WEST,Second Round,north-carolina,North Carolina,67,4,true
+stephen-f-austin,Stephen F. Austin,50,12,false,SOUTH,Second Round,utah,Utah,57,5,true
+lsu,LSU,65,9,false,EAST,Second Round,north-carolina-st,North Carolina St.,66,8,true
+wofford,Wofford,53,12,false,WEST,Second Round,arkansas,Arkansas,56,5,true
+hampton,Hampton,56,16,false,MIDWEST,Second Round,kentucky,Kentucky,79,1,true
+eastern-wash,Eastern Wash.,74,13,false,SOUTH,Second Round,georgetown,Georgetown,84,4,true
+new-mexico-st,New Mexico St.,56,15,false,MIDWEST,Second Round,kansas,Kansas,75,2,true
+georgia,Georgia,63,10,false,EAST,Second Round,michigan-st,Michigan St.,70,7,true
+wyoming,Wyoming,54,12,false,EAST,Second Round,uni,UNI,71,5,true
+buffalo,Buffalo,62,12,false,MIDWEST,Second Round,west-virginia,West Virginia,68,5,true
+indiana,Indiana,76,10,false,MIDWEST,Second Round,wichita-st,Wichita St.,81,7,true
+belmont,Belmont,67,15,false,EAST,Second Round,virginia,Virginia,79,2,true
+uc-irvine,UC Irvine,55,13,false,EAST,Second Round,louisville,Louisville,57,4,true
+valparaiso,Valparaiso,62,13,false,MIDWEST,Second Round,maryland,Maryland,65,4,true
+oklahoma-st,Oklahoma St.,73,9,false,WEST,Second Round,oregon,Oregon,79,8,true
+robert-morris,Robert Morris,56,16,false,SOUTH,Second Round,duke,Duke,85,1,true
+davidson,Davidson,52,10,false,SOUTH,Second Round,iowa,Iowa,83,7,true
+albany-ny,Albany (NY),60,14,false,EAST,Second Round,oklahoma,Oklahoma,69,3,true
+coastal-caro,Coastal Caro.,72,16,false,WEST,Second Round,wisconsin,Wisconsin,86,1,true
+st-johns-ny,St. John's (NY),64,9,false,SOUTH,Second Round,san-diego-st,San Diego St.,76,8,true
+north-dakota-st,North Dakota St.,76,15,false,SOUTH,Second Round,gonzaga,Gonzaga,86,2,true
+dayton,Dayton,66,11,true,EAST,Second Round,providence,Providence,53,6,false
+uab,UAB,75,14,false,SOUTH,Third Round,ucla,UCLA,92,11,true
+cincinnati,Cincinnati,51,8,false,MIDWEST,Third Round,kentucky,Kentucky,64,1,true
+ohio-st,Ohio St.,58,10,false,WEST,Third Round,arizona,Arizona,73,2,true
+georgia-st,Georgia St.,67,14,false,WEST,Third Round,xavier,Xavier,75,6,true
+north-carolina-st,North Carolina St.,71,8,true,EAST,Third Round,villanova,Villanova,68,1,false
+utah,Utah,75,5,true,SOUTH,Third Round,georgetown,Georgetown,64,4,false
+arkansas,Arkansas,78,5,false,WEST,Third Round,north-carolina,North Carolina,87,4,true
+butler,Butler,64,6,false,MIDWEST,Third Round,notre-dame,Notre Dame,67,3,true
+michigan-st,Michigan St.,60,7,true,EAST,Third Round,virginia,Virginia,54,2,false
+san-diego-st,San Diego St.,49,8,false,SOUTH,Third Round,duke,Duke,68,1,true
+wichita-st,Wichita St.,78,7,true,MIDWEST,Third Round,kansas,Kansas,65,2,false
+dayton,Dayton,66,11,false,EAST,Third Round,oklahoma,Oklahoma,72,3,true
+iowa,Iowa,68,7,false,SOUTH,Third Round,gonzaga,Gonzaga,87,2,true
+oregon,Oregon,65,8,false,WEST,Third Round,wisconsin,Wisconsin,72,1,true
+west-virginia,West Virginia,69,5,true,MIDWEST,Third Round,maryland,Maryland,59,4,false
+uni,UNI,53,5,false,EAST,Third Round,louisville,Louisville,66,4,true
+wichita-st,Wichita St.,70,7,false,MIDWEST,Sweet 16&#174;,notre-dame,Notre Dame,81,3,true
+north-carolina,North Carolina,72,4,false,WEST,Sweet 16&#174;,wisconsin,Wisconsin,79,1,true
+west-virginia,West Virginia,39,5,false,MIDWEST,Sweet 16&#174;,kentucky,Kentucky,78,1,true
+xavier,Xavier,60,6,false,WEST,Sweet 16&#174;,arizona,Arizona,68,2,true
+ucla,UCLA,62,11,false,SOUTH,Sweet 16&#174;,gonzaga,Gonzaga,74,2,true
+north-carolina-st,North Carolina St.,65,8,false,EAST,Sweet 16&#174;,louisville,Louisville,75,4,true
+utah,Utah,57,5,false,SOUTH,Sweet 16&#174;,duke,Duke,63,1,true
+michigan-st,Michigan St.,62,7,true,EAST,Sweet 16&#174;,oklahoma,Oklahoma,58,3,false
+arizona,Arizona,78,2,false,WEST,Elite Eight&#174;,wisconsin,Wisconsin,85,1,true
+notre-dame,Notre Dame,66,3,false,MIDWEST,Elite Eight&#174;,kentucky,Kentucky,68,1,true
+michigan-st,Michigan St.,76,7,true,EAST,Elite Eight&#174;,louisville,Louisville,70,4,false
+gonzaga,Gonzaga,52,2,false,SOUTH,Elite Eight&#174;,duke,Duke,66,1,true
+michigan-st,Michigan St.,61,7,false,,FINAL FOUR&#174;,duke,Duke,81,1,true
+wisconsin,Wisconsin,71,1,true,,FINAL FOUR&#174;,kentucky,Kentucky,64,1,false
+wisconsin,Wisconsin,63,1,false,,Championship,duke,Duke,68,1,true
