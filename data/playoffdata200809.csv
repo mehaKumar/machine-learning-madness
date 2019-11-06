@@ -1,0 +1,64 @@
+season,winnerName,winnerSeed,loserName,loserSeed
+200809,Louisville,1,Morehead State,16
+200809,Siena,9,Ohio State,8
+200809,Arizona,12,Utah,5
+200809,Cleveland State,13,Wake Forest,4
+200809,Dayton,11,West Virginia,6
+200809,Kansas,3,North Dakota State,14
+200809,USC,10,Boston College,7
+200809,Michigan State,2,Robert Morris,15
+200809,Louisville,1,Siena,9
+200809,Arizona,12,Cleveland State,13
+200809,Kansas,3,Dayton,11
+200809,Michigan State,2,USC,10
+200809,Louisville,1,Arizona,12
+200809,Michigan State,2,Kansas,3
+200809,Michigan State,2,Louisville,1
+200809,Pitt,1,ETSU,16
+200809,Oklahoma State,8,Tennessee,9
+200809,Wisconsin,12,Florida State,5
+200809,Xavier,4,Portland State,13
+200809,UCLA,6,VCU,11
+200809,Villanova,3,American,14
+200809,Texas,7,Minnesota,10
+200809,Duke,2,Binghamton,15
+200809,Pitt,1,Oklahoma State,8
+200809,Xavier,4,Wisconsin,12
+200809,Villanova,3,UCLA,6
+200809,Duke,2,Texas,7
+200809,Pitt,1,Xavier,4
+200809,Villanova,3,Duke,2
+200809,Villanova,3,Pitt,1
+200809,UNC,1,Radford,16
+200809,LSU,8,Butler,9
+200809,Western Kentucky,12,Illinois,5
+200809,Gonzaga,4,Akron,13
+200809,Arizona State,6,Temple,11
+200809,Syracuse,3,Stephen F. Austin,14
+200809,Michigan,10,Clemson,7
+200809,Oklahoma,2,Morgan State,15
+200809,UNC,1,LSU,8
+200809,Gonzaga,4,Western Kentucky,12
+200809,Syracuse,3,Arizona State,4
+200809,Oklahoma,2,Michigan,10
+200809,UNC,1,Gonzaga,4
+200809,Oklahoma,2,Syracuse,3
+200809,UNC,1,Oklahoma,2
+200809,Uconn,1,Chattanooga,16
+200809,Texas A&M,9,BYU,8
+200809,Purdue,5,Northern Iowa,12
+200809,Washington,4,Mississippi State,13
+200809,Marquette,6,Utah State,11
+200809,Missouri,3,Cornell,14
+200809,Maryland,10,California,7
+200809,Memphis,2,Cal State Northridge,15
+200809,Uconn,1,Texas A&M,9
+200809,Purdue,5,Washington,4
+200809,Missouri,3,Marquette,6
+200809,Memphis,2,Maryland,10
+200809,Uconn,1,Purdue,5
+200809,Missouri,3,Memphis,2
+200809,Uconn,1,Missouri,3
+200809,UNC,1,Villanova,3
+200809,Uconn,1,Michigan State,2
+200809,UNC,1,Uconn,1
