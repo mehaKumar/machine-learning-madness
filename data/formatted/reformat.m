@@ -1,7 +1,8 @@
 clc
-[~, ~, play] = xlsread('playoffdata201819.xlsx');
+clear
+[~, ~, play] = xlsread('playoffdata201516.xlsx');
 
-[~, ~, basic] = xlsread('basicdata201819.xlsx');
+[~, ~, basic] = xlsread('basicdata201516.xlsx');
 
 [pr,pc] = size(play);
 [br, bc] = size(basic);
@@ -20,5 +21,4 @@ team2seed = play(i+1, 5);
 %datasize = size(data(1,:))
 data(i,:) = [team1, team2, team1seed, team1data, team2seed, team2data]; 
 end
-data
-xlswrite('processedData201819.xlsx', data)
+xlswrite('processedData201516.xlsx', data)
