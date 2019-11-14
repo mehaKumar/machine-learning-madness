@@ -1,0 +1,64 @@
+season,winnerName,winnerSeed,loserName,loserSeed
+201011,Ohio State,1,Texas-San Antonio,16
+201011,George Mason,8,Villanova,9
+201011,West Virginia,5,Clemson,12
+201011,Kentucky,4,Princeton,13
+201011,Marquette,11,Xavier,6
+201011,Syracuse,3,Indiana State,14
+201011,Washington,7,Georgia,10
+201011,North Carolina,2,Long Island University,15
+201011,Ohio State,1,George Mason,8
+201011,Kentucky,4,West Virginia,5
+201011,Marquette,11,Syracuse,3
+201011,North Carolina,2,Washington,7
+201011,Kentucky,4,Ohio State,1
+201011,North Carolina,2,Marquette,11
+201011,Kentucky,4,North Carolina,2
+201011,Pittsburgh,1,North Carolina-Asheville,16
+201011,Butler,8,Old Dominion,9
+201011,Kansas State,5,Utah State,12
+201011,Wisconsin,4,Belmont,13
+201011,Gonzaga,11,St. John's (NY),6
+201011,Brigham Young,3,Wofford,14
+201011,UCLA,7,Michigan State,10
+201011,Florida,2,UC-Santa Barbara,15
+201011,Butler,8,Pittsburgh,1
+201011,Wisconsin,4,Kansas State,5
+201011,Brigham Young,3,Gonzaga,11
+201011,Florida,2,UCLA,7
+201011,Butler,8,Wisconsin,4
+201011,Florida,2,Brigham Young,3
+201011,Butler,8,Florida,2
+201011,Kansas,1,Boston University,16
+201011,Illinois,9,Nevada-Las Vegas,8
+201011,Richmond,12,Vanderbilt,5
+201011,Morehead State,13,Louisville,4
+201011,Virginia Commonwealth,11,Georgetown,6
+201011,Purdue,3,Saint Peter's,14
+201011,Florida State,10,Texas A&M,7
+201011,Notre Dame,2,Akron,15
+201011,Kansas,1,Illinois,9
+201011,Richmond,12,Morehead State,13
+201011,Virginia Commonwealth,11,Purdue,3
+201011,Florida State,10,Notre Dame,2
+201011,Kansas,1,Richmond,12
+201011,Virginia Commonwealth,11,Florida State,10
+201011,Virginia Commonwealth,11,Kansas,1
+201011,Duke,1,Hampton,16
+201011,Michigan,8,Tennessee,9
+201011,Arizona,5,Memphis,12
+201011,Texas,4,Oakland,13
+201011,Cincinnati,6,Missouri,11
+201011,Connecticut,3,Bucknell,14
+201011,Temple,7,Penn State,10
+201011,San Diego State,2,Northern Colorado,15
+201011,Duke,1,Michigan,8
+201011,Arizona,5,Texas,4
+201011,Connecticut,3,Cincinnati,6
+201011,San Diego State,2,Temple,7
+201011,Arizona,5,Duke,1
+201011,Connecticut,3,San Diego State,2
+201011,Connecticut,3,Arizona,5
+201011,Connecticut,3,Kentucky,4
+201011,Butler,8,Virginia Commonwealth,11
+201011,Connecticut,3,Butler,8

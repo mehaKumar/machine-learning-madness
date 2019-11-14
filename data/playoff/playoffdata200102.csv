@@ -1,0 +1,64 @@
+season,winnerName,winnerSeed,loserName,loserSeed
+200102,Maryland,1,Siena,16
+200102,Wisconsin,8,St. John’s (NY),9
+200102,Tulsa,12,Marquette,5
+200102,Kentucky,4,Valparaiso,13
+200102,Southern Illinois,11,Texas Tech,6
+200102,Georgia,3,Murray State,14
+200102,North Carolina State,7,Michigan State,10
+200102,Connecticut,2,Hampton,15
+200102,Maryland,1,Wisconsin,8
+200102,Kentucky,4,Tulsa,12
+200102,Southern Illinois,11,Georgia,3
+200102,Connecticut,2,North Carolina State,7
+200102,Maryland,1,Kentucky,4
+200102,Connecticut,2,Southern Illinois,11
+200102,Maryland,1,Connecticut,2
+200102,Kansas,1,Holy Cross,16
+200102,Stanford,8,Western Kentucky,9
+200102,Creighton,12,Florida,5
+200102,Illinois,4,San Diego State,13
+200102,Texas,6,Boston College,11
+200102,Mississippi State,3,McNeese State,14
+200102,Wake Forest,7,Pepperdine,10
+200102,Oregon,2,Montana,15
+200102,Kansas,1,Stanford,8
+200102,Illinois,4,Creighton,12
+200102,Texas,6,Mississippi State,3
+200102,Oregon,2,Wake Forest,7
+200102,Kansas,1,Illinois,4
+200102,Oregon,2,Texas,6
+200102,Kansas,1,Oregon,2
+200102,Duke,1,Winthrop,16
+200102,Notre Dame,8,Charlotte,9
+200102,Indiana,5,Utah,12
+200102,North Carolina-Wilmington,13,Southern California,4
+200102,University of California,6,Pennsylvania,11
+200102,Pittsburgh,3,Central Connecticut State,14
+200102,Kent State,10,Oklahoma State,7
+200102,Alabama,2,Florida Atlantic,15
+200102,Duke,1,Notre Dame,8
+200102,Indiana,5,North Carolina-Wilmington,13
+200102,Pittsburgh,3,University of California,6
+200102,Kent State,10,Alabama,2
+200102,Indiana,5,Duke,1
+200102,Kent State,10,Pittsburgh,3
+200102,Indiana,5,Kent State,10
+200102,Cincinnati,1,Boston University,16
+200102,UCLA,8,Mississippi,9
+200102,Missouri,12,Miami (FL),5
+200102,Ohio State,4,Davidson,13
+200102,Wyoming,11,Gonzaga,6
+200102,Arizona,3,UC-Santa Barbara,14
+200102,Xavier,7,Hawaii,10
+200102,Oklahoma,2,Illinois-Chicago,15
+200102,UCLA,8,Cincinnati,1
+200102,Missouri,12,Ohio State,4
+200102,Arizona,3,Wyoming,11
+200102,Oklahoma,2,Xavier,7
+200102,Missouri,12,UCLA,8
+200102,Oklahoma,2,Arizona,3
+200102,Oklahoma,2,Missouri,12
+200102,Maryland,1,Kansas,1
+200102,Indiana,5,Oklahoma,2
+200102,Maryland,1,Indiana,5

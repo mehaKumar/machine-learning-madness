@@ -1,0 +1,64 @@
+season,winnerName,winnerSeed,loserName,loserSeed
+200304,Kentucky,1,Florida A&M,16
+200304,Alabama-Birmingham,9,Washington,8
+200304,Pacific,12,Providence,5
+200304,Kansas,4,Illinois-Chicago,13
+200304,Boston College,6,Utah,11
+200304,Georgia Tech,3,Northern Iowa,14
+200304,Nevada,10,Michigan State,7
+200304,Gonzaga,2,Valparaiso,15
+200304,Alabama-Birmingham,9,Kentucky,1
+200304,Kansas,4,Pacific,12
+200304,Georgia Tech,3,Boston College,6
+200304,Nevada,10,Gonzaga,2
+200304,Kansas,4,Alabama-Birmingham,9
+200304,Georgia Tech,3,Nevada,10
+200304,Georgia Tech,3,Kansas,4
+200304,Duke,1,Alabama State,16
+200304,Seton Hall,8,Arizona,9
+200304,Illinois,5,Murray State,12
+200304,Cincinnati,4,East Tennessee State,13
+200304,North Carolina,6,Air Force,11
+200304,Texas,3,Princeton,14
+200304,Xavier,7,Louisville,10
+200304,Mississippi State,2,Monmouth,15
+200304,Duke,1,Seton Hall,8
+200304,Illinois,5,Cincinnati,4
+200304,Texas,3,North Carolina,6
+200304,Xavier,7,Mississippi State,2
+200304,Duke,1,Illinois,5
+200304,Xavier,7,Texas,3
+200304,Duke,1,Xavier,7
+200304,Saint Joseph's,1,Liberty,16
+200304,Texas Tech,8,Charlotte,9
+200304,Manhattan,12,Florida,5
+200304,Wake Forest,4,Virginia Commonwealth,13
+200304,Wisconsin,6,Richmond,11
+200304,Pittsburgh,3,Central Florida,14
+200304,Memphis,7,South Carolina,10
+200304,Oklahoma State,2,Eastern Washington,15
+200304,Saint Joseph's,1,Texas Tech,8
+200304,Wake Forest,4,Manhattan,12
+200304,Pittsburgh,3,Wisconsin,6
+200304,Oklahoma State,2,Memphis,7
+200304,Saint Joseph's,1,Wake Forest,4
+200304,Oklahoma State,2,Pittsburgh,3
+200304,Oklahoma State,2,Saint Joseph's,1
+200304,Stanford,1,Texas-San Antonio,16
+200304,Alabama,8,Southern Illinois,9
+200304,Syracuse,5,Brigham Young,12
+200304,Maryland,4,Texas-El Paso,13
+200304,Vanderbilt,6,Western Michigan,11
+200304,North Carolina State,3,Louisiana,14
+200304,DePaul,7,Dayton,10
+200304,Connecticut,2,Vermont,15
+200304,Alabama,8,Stanford,1
+200304,Syracuse,5,Maryland,4
+200304,Vanderbilt,6,North Carolina State,3
+200304,Connecticut,2,DePaul,7
+200304,Alabama,8,Syracuse,5
+200304,Connecticut,2,Vanderbilt,6
+200304,Connecticut,2,Alabama,8
+200304,Connecticut,2,Duke,1
+200304,Georgia Tech,3,Oklahoma State,2
+200304,Connecticut,2,Georgia Tech,3
