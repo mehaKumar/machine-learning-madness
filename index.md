@@ -74,8 +74,9 @@ Log Loss for Proba:  0.418003472525696
 Accuracy: 0.8253968253968254  
 
 #### Gradient Boosting  
+Gradient boosting combines classifiers which are weak on their own into a powerful classifier.  
 Log Loss for Proba:  0.409139681201835  
-Accuracy: 0.8412698412698413  
+Accuracy: 0.8412698412698413
 
 # Conclusion
 
