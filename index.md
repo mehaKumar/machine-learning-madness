@@ -70,11 +70,12 @@ Test loss: 0.6118477860455791
 Accuracy: 0.7619048
 
 #### Random Forest  
+Random Forest takes a weighted majority vote of multiple decision trees to determine the label of input data.  
 Log Loss: 0.418003472525696  
 Accuracy: 0.8253968253968254  
 
 #### Gradient Boosting  
-Gradient boosting combines classifiers which are weak on their own into a powerful classifier.  
+Boosting is a famous technique that utilizies a combination of weaker classifiers to create a stronger classifier. Gradient boosting uses a more sophisticated combination of decision trees to better classify inputs without being heavily affected by noise.  
 Log Loss: 0.409139681201835  
 Accuracy: 0.8412698412698413  
 
