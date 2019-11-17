@@ -49,19 +49,24 @@ Once the data was processed into the appropriate input arrays for training and t
 Linear Regression was the first algorithm we successfully implemented. It returned a classification range from -30 to 400, so we had to normalize our data between 0 and 1 to obtain the probabilities of a team winning in a particular matchup. 
 
 #### Ridge Regression
-Once we had Linear Regression implemented, it was very easy to add Ridge and Lasso Regressions in. Again, we had to normalize our data to fit within a probability range of 0 to 1. 
+Once we had Linear Regression implemented, it was very easy to add Ridge and Lasso Regressions in. We chose to use Ridge Regression to prevent overfitting our model to our training data, and it proved helpful.
+Log Loss:
+Accuracy:
 
 #### Lasso Regression
-As with the other Regression methods, we normalized our data and calculated the log loss of our results. This was perhaps our worst result - the error was over 4, whereas most others had loss under 1. 
+We hadn't planned on using Lasso Regression, but since it was a quick implementation with sklearn, we added it to our set of models. It was the worst by far. 
+Log Loss:
+Accuracy:
 
 #### K-Nearest Neighbors
-Log Loss for Proba:  0.5833062453519248
+Log Loss:  0.5833062453519248
 Accuracy: 0.7142857142857143
 
 #### Neural Nets
-<Information about the setup>
-
-The neural net performed exactly at our goal of 76% accuracy, with a loss of 0.61, so it was competetive with non-machine guesses. 
+<Information about the setup> The neural net had the accuracy closest to our goal of 76%. 
+    
+Accuracy: 0.7619048
+Test loss: 0.6118477860455791
 
 #### Random Forest
 Log Loss for Proba:  0.418003472525696
