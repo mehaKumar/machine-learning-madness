@@ -63,8 +63,9 @@ Log Loss:  0.5833062453519248
 Accuracy: 0.7142857142857143
 
 #### Neural Nets
-<Information about the setup> The neural net had the accuracy closest to our goal of 76%. 
-    
+For neural net, we had five layers, and each layer used the sigmoid as the activation function. The optimizer that was used for the model was adam. The neural net had the accuracy closest to our goal of 76%. 
+
+![alt text](/graphs/nnlogloss.png)
 Accuracy: 0.7619048
 Test loss: 0.6118477860455791
 
@@ -80,6 +81,8 @@ Accuracy: 0.8412698412698413
 
 #### Which method had the most accuracy?
 Our log loss was at its worst with Lasso Regression, at a high of 4.3. At its lowest, we achieved .409 with Gradient Boosting for our tournament prediction. Our accuracy reached a peak at 84% with Gradient Boosting, which is a huge improvement over our goal of 76% accuracy. 
+
+![alt text](/graphs/methodcomparison.png)
 
 
 # References
