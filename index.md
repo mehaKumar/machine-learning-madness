@@ -27,10 +27,10 @@ We will generate predictions for all 67 games that took place in this year's Mar
 - Source: Sports Reference [2]
 - Two categories:
     - Basic Data: data related to the team's overall playing statistics
-        - Features: OverallWin, OverallLoss, SimpleRanking, ScheduleStrength, ConferenceWin, ConferenceLoss, HomeWin,                   HomeLoss, AwayWin, AwayLoss, Points, PointsAgainst, FieldGoals, FieldGoalsAtt, 3P, 3PAtt, FreeThrows, FreeThrowsAtt,           OffensiveReb, TotalReb, Assists, Steals, Blocks, TurnoverPct, PersonalFouls
+        - Features: Wins, Losses, Simple Ranking, Schedule Difficulty, Conference Wins, Conference Losses, Home Wins,                   Home Losses, Away Wins, Away Losses, Points, Points Against, Field Goals, Field Goal Attempts, 3 Pointers, 3 Point             Attempts, Free Throws, Free Throw Attempts, Offensive Rebounds, Total Rebounds, Assists, Steals, Blocks, Turnover             Percentage, PersonalFouls  
         - Each of these statistics is highly relevant to a team's performance and competetiveness. Our dataset also included a           number of advanced statistics, but we found that the majority of them were derived from the others with respect to             time or other stats, so we disregarded these numbers. 
     - Playoff Data: data related to the team's seed and wins/losses in the past March Madness tournaments
-        - Features: WinnerName, WinnerSeed, LoserName, LoserSeed
+        - Features: Winner Name, Winner Seed, Loser Name, Loser Seed
         - When we used our data as inputs to our functions, we removed team names to prevent association of victory with                 specific schools instead of seeds because a team's strength could differ from year to year. 
 
 #### Splitting Data for Training and Testing
@@ -63,20 +63,21 @@ Log Loss:  0.5833062453519248
 Accuracy: 0.7142857142857143
 
 #### Neural Nets
-For neural net, we had five layers, and each layer used the sigmoid as the activation function. The optimizer that was used for the model was adam. The neural net had the accuracy closest to our goal of 76%. 
+For neural net, we had five layers, and each layer used the sigmoid as the activation function. The optimizer that was used for the model was adam. The neural net was the first of our algorithms to surpass our accuracy goal of 76%. The graph here shows how our loss decreased during our training. 
 
-![alt text](/graphs/nnlogloss.png)
+![alt text](/graphs/nnlogloss.png)  
+
+Test loss: 0.6118477860455791  
 Accuracy: 0.7619048
-Test loss: 0.6118477860455791
 
 #### Random Forest  
-Log Loss for Proba:  0.418003472525696  
+Log Loss: 0.418003472525696  
 Accuracy: 0.8253968253968254  
 
 #### Gradient Boosting  
 Gradient boosting combines classifiers which are weak on their own into a powerful classifier.  
-Log Loss for Proba:  0.409139681201835  
-Accuracy: 0.8412698412698413
+Log Loss: 0.409139681201835  
+Accuracy: 0.8412698412698413  
 
 # Conclusion
 
