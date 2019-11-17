@@ -54,9 +54,22 @@ Once we had Linear Regression implemented, it was very easy to add Ridge and Las
 #### Lasso Regression
 As with the other Regression methods, we normalized our data and calculated the log loss of our results. This was perhaps our worst result - the error was over 4, whereas most others had loss under 1. 
 
-#### Random Forest
+#### K-Nearest Neighbors
+Log Loss for Proba:  0.5833062453519248
+Accuracy: 0.7142857142857143
 
 #### Neural Nets
+<Information about the setup>
+
+The neural net performed exactly at our goal of 76% accuracy, with a loss of 0.61, so it was competetive with non-machine guesses. 
+
+#### Random Forest
+Log Loss for Proba:  0.418003472525696
+Accuracy: 0.8253968253968254
+
+#### Gradient Boosting
+Log Loss for Proba:  0.409139681201835
+Accuracy: 0.8412698412698413
 
 # Conclusion
 
