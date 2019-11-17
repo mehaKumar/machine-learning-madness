@@ -28,19 +28,24 @@ To predict a bracket for upcoming March Madness and submit it for the Machine Le
 - Source: Sports Reference [2]
 - Two categories:
     - Basic Data: data related to the team's overall playing statistics
-        - Features: OverallWin, OverallLoss, SimpleRanking, ScheduleStrength, ConferenceWin, ConferenceLoss, HomeWin, HomeLoss, AwayWin, AwayLoss, Points, PointsAgainst, FieldGoals, FieldGoalsAtt, 3P, 3PAtt, FreeThrows, FreeThrowsAtt, OffensiveReb, TotalReb, Assists, Steals, Blocks, TurnoverPct, PersonalFouls
+        - Features: OverallWin, OverallLoss, SimpleRanking, ScheduleStrength, ConferenceWin, ConferenceLoss, HomeWin,                   HomeLoss, AwayWin, AwayLoss, Points, PointsAgainst, FieldGoals, FieldGoalsAtt, 3P, 3PAtt, FreeThrows, FreeThrowsAtt,           OffensiveReb, TotalReb, Assists, Steals, Blocks, TurnoverPct, PersonalFouls
+        - Each of these statistics is highly relevant to a team's performance and competetiveness. Our dataset also included a           number of advanced statistics, but we found that the majority of them were derived from the others with respect to             time or other stats, so we disregarded these numbers. 
     - Playoff Data: data related to the team's seed and wins/losses in the past March Madness tournaments
         - Features: WinnerName, WinnerSeed, LoserName, LoserSeed
+        - When we used our data as inputs to our functions, we removed team names to prevent association of victory with                 specific schools instead of seeds because a team's strength could differ from year to year. 
 
-#### Splitting data for training and testing
-- Total of 19 past March Madness tournaments from 2000 to 2019
-    - Training: 16 of the 19 tournaments (2000 to 2015)
-    - Testing: 3 of the 19 tournaments (2016 to 2019)
+#### Splitting Data for Training and Testing
+- We gathered a total of 19 past March Madness tournaments from 2000-2001 to 2018-2019
+    - Older tournaments had less teams, missing data, or a different tournament format
+    - Training: 16 of the 19 tournaments (2000-2001 to 2015-2016)
+    - Testing: 3 of the 19 tournaments (2016-2017 to 2018-2019)
 
-#### Processing data
-After getting our data, we need to format the data csv files to numpy arrays. To achieve this, we used Panda
+#### Processing and Formatting Data
+After getting our data, we needed to reformat the data, which was in csv files, into numpy arrays. To achieve this, we used the Pandas library for easy imports and reformatting. We then compiled the playoff data from every tournament with the teams' regular season data so that the indivdual games were directly correlated with the teams' stats in our input array. We then swapped the order of the teams in half of the matchups so that the algorithms wouldn't simply learn that the first team in each input row was the winner. 
 
 # Methods
+
+
 
 #### PCA
 
