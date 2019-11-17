@@ -5,22 +5,23 @@
 #### What is March Madness?
 March Madness is a National Collegiate Athletic Association (NCAA) college basketball single-elimination tournament that occurs in March. There are 68 teams that are divided into four regions and placed into a bracket, which lays out the path a team must take to reach the finals. Each team is seeded or ranked within its region, from 1 to 16 [1].
 
-#### What about March Madness?
-At tournament time each year, millions of people fill out their own brackets, attempting to predict the perfect bracket. This means that you have to guess the winner of every game correctly, and your chances of that happening is less than 1 in 9.2 quintillion (or more precisely, 9,223,372,036,854,775,808)! [1].
+#### Why Do We Care?
+At tournament time each year, millions of people fill out their own brackets, attempting to predict the outcome of all sixty-seven games and achieve a perfect bracket. The chances of forecasting the winner of every game correctly is less than 1 in 9.2 quintillion (or more precisely, 9,223,372,036,854,775,808)! [1].  In recent years, computer scientists have begun trying to predict the tournament using data analytics and machine learning.
 
 ![alt text](https://www.ncaa.com/sites/default/files/public/styles/focal_point_large/public-s3/images/2019-06-27/2020-NCAA-bracket-March-Madness_0.jpg?h=40a071cb&itok=R2ic4qTy)
 ![alt text](https://www.ncaa.com/sites/default/files/public/styles/original/public-s3/images/2019/04/09/ncaa-tournament-bracket-2019-scores-games-virginia-texas-tech.png?itok=0E3VNWmI)
-(Replace image above with bracket of our results???)
 
 # Motivation
 #### Machine Learning Madness
 
-Machine Learning Madness is a competition that Kaggle host. This competition is a machine learning algorithms face off to see how well they can predict the perfect bracket.
+Machine Learning Madness is a competition that Google Cloud hosts each year. In this competition, machine learning algorithms face off to see how closely they can predict the perfect bracket.  Our participation in this competition provides us with valuable experience in statistics, data modeling, and cloud technology, as well as an opportunity to win some of the prize money (totaling $25,000)!  
 
 ![alt text](https://storage.googleapis.com/kaggle-competitions/kaggle/4862/media/bball-logo.png)
 
 #### Our Goal
-To predict a bracket for upcoming March Madness and submit it for the Machine Learning Madness competition and maybe make some money~
+We will generate predictions for all 67 games that took place in this year's March Madness and hope to predict at least 51 games accurately.  We chose 51 games because simply choosing the better seeded team in all 67 games results in an average accuracy of 76% (or 51 games).  We hope our algorithm can predict at least a few upsets accurately. 
+
+![alt text](https://medium.com/re-hoop-per-rate/training-a-neural-network-to-fill-out-my-march-madness-bracket-2e5ee562eab1)
 
 # Data Overview
 
