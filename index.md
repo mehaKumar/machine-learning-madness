@@ -43,18 +43,20 @@ We will generate predictions for all 67 games that took place in this year's Mar
 After getting our data, we needed to reformat the data, which was in csv files, into numpy arrays. To achieve this, we used the Pandas library for easy imports and reformatting. We then compiled the playoff data from every tournament with the teams' regular season data so that the indivdual games were directly correlated with the teams' stats in our input array. We then swapped the order of the teams in half of the matchups so that the algorithms wouldn't simply learn that the first team in each input row was the winner. 
 
 # Methods
-
-
-
-#### PCA
-
-#### Neural Nets
+Once the data was processed into the appropriate input arrays for training and testing, we needed to actually pick models to train. There has been a huge variety of successful algorithms used by a number of experts in the field for related problems, and no particular choice stood out among the pack. Because of this, we decided to test a variety of popular algorithms to fully explore the possibilities. In particular, we focused on several classification algorithms to differentiate winners from losers.
 
 #### Linear Regression
+Linear Regression was the first algorithm we successfully implemented. It returned a classification range from -30 to 400, so we had to normalize our data between 0 and 1 to obtain the probabilities of a team winning in a particular matchup. 
 
 #### Ridge Regression
+Once we had Linear Regression implemented, it was very easy to add Ridge and Lasso Regressions in. Again, we had to normalize our data to fit within a probability range of 0 to 1. 
+
+#### Lasso Regression
+As with the other Regression methods, we normalized our data and calculated the log loss of our results. This was perhaps our worst result - the error was over 4, whereas most others had loss under 1. 
 
 #### Random Forest
+
+#### Neural Nets
 
 # Conclusion
 
