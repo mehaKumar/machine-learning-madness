@@ -19,7 +19,7 @@ Machine Learning Madness is a competition that Google Cloud hosts each year. In 
 ![alt text](https://storage.googleapis.com/kaggle-competitions/kaggle/4862/media/bball-logo.png)
 
 #### Our Goal
-We will generate predictions for all 67 games that took place in this year's March Madness and hope to predict at least 51 games accurately.  We chose 51 games because simply choosing the better seeded team in all 67 games results in an average accuracy of 76% (or 51 games) [3].  We hope our algorithm can predict at least a few upsets accurately. 
+We will generate predictions for all 67 games that took place in this year's March Madness and hope to predict at least 51 games accurately.  We chose 51 games because simply choosing the better seeded team in all 67 games results in an average accuracy of 76% (or 51 games) [3].  We hope our algorithm can predict at least a few upsets accurately. We also hope to achieve log loss less than or equal to 0.50 beause the overall winners of this year's competition achieved log loss between 0.41477 and 0.43148 [4].
 
 # Data Overview
 
@@ -43,22 +43,43 @@ We will generate predictions for all 67 games that took place in this year's Mar
 After getting our data, we needed to reformat the data, which was in csv files, into numpy arrays. To achieve this, we used the Pandas library for easy imports and reformatting. We then compiled the playoff data from every tournament with the teams' regular season data so that the indivdual games were directly correlated with the teams' stats in our input array. We then swapped the order of the teams in half of the matchups so that the algorithms wouldn't simply learn that the first team in each input row was the winner. 
 
 # Methods
-
-
-
-#### PCA
-
-#### Neural Nets
+Once the data was processed into the appropriate input arrays for training and testing, we needed to actually pick models to train. There has been a huge variety of successful algorithms used by a number of experts in the field for related problems, and no particular choice stood out among the pack. Because of this, we decided to test a variety of popular algorithms to fully explore the possibilities. In particular, we focused on several classification algorithms to differentiate winners from losers.
 
 #### Linear Regression
+Linear Regression was the first algorithm we successfully implemented. It returned a classification range from -30 to 400, so we had to normalize our data between 0 and 1 to obtain the probabilities of a team winning in a particular matchup. 
+Log Loss: 0.6321334547789854
 
 #### Ridge Regression
+Once we had Linear Regression implemented, it was very easy to add Ridge and Lasso Regressions in. We chose to use Ridge Regression to prevent overfitting our model to our training data, and it proved helpful.
+Log Loss: 0.6321048566701682 
+
+#### Lasso Regression
+We hadn't planned on using Lasso Regression, but since it was a quick implementation with sklearn, we added it to our set of models. It was the worst by far. 
+Log Loss: 4.29240442615355
+
+#### K-Nearest Neighbors
+KNN was the first of our methods that had a log loss below .6, so we also calculated our accuracy of model's predictions of the 2018-2019 bracket. 
+Log Loss:  0.5833062453519248
+Accuracy: 0.7142857142857143
+
+#### Neural Nets
+<Information about the setup> The neural net had the accuracy closest to our goal of 76%. 
+    
+Accuracy: 0.7619048
+Test loss: 0.6118477860455791
 
 #### Random Forest
+Log Loss for Proba:  0.418003472525696
+Accuracy: 0.8253968253968254
+
+#### Gradient Boosting
+Log Loss for Proba:  0.409139681201835
+Accuracy: 0.8412698412698413
 
 # Conclusion
 
 #### Which method had the most accuracy?
+Our log loss was at its worst with Lasso Regression, at a high of 4.3. At its lowest, we achieved .409 with Gradient Boosting for our tournament prediction. Our accuracy reached a peak at 84% with Gradient Boosting, which is a huge improvement over our goal of 76% accuracy. 
 
 
 # References
@@ -66,6 +87,7 @@ After getting our data, we needed to reformat the data, which was in csv files, 
 [1] https://www.wonderopolis.org/wonder/what-is-march-madness
 [2] https://www.sports-reference.com/cbb/seasons/
 [3] https://medium.com/re-hoop-per-rate/training-a-neural-network-to-fill-out-my-march-madness-bracket-2e5ee562eab1
+[4] https://www.kaggle.com/c/mens-machine-learning-competition-2019/leaderboard
 
 #### Images
 - https://websterapartments.org/wp-content/uploads/2015/03/MarchMadness-main-1024x394.jpg
