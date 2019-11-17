@@ -19,9 +19,7 @@ Machine Learning Madness is a competition that Google Cloud hosts each year. In 
 ![alt text](https://storage.googleapis.com/kaggle-competitions/kaggle/4862/media/bball-logo.png)
 
 #### Our Goal
-We will generate predictions for all 67 games that took place in this year's March Madness and hope to predict at least 51 games accurately.  We chose 51 games because simply choosing the better seeded team in all 67 games results in an average accuracy of 76% (or 51 games).  We hope our algorithm can predict at least a few upsets accurately. 
-
-![alt text](https://medium.com/re-hoop-per-rate/training-a-neural-network-to-fill-out-my-march-madness-bracket-2e5ee562eab1)
+We will generate predictions for all 67 games that took place in this year's March Madness and hope to predict at least 51 games accurately.  We chose 51 games because simply choosing the better seeded team in all 67 games results in an average accuracy of 76% (or 51 games) [3].  We hope our algorithm can predict at least a few upsets accurately. 
 
 # Data Overview
 
@@ -67,6 +65,7 @@ After getting our data, we needed to reformat the data, which was in csv files, 
 (Still need to cite these resources properly)
 [1] https://www.wonderopolis.org/wonder/what-is-march-madness
 [2] https://www.sports-reference.com/cbb/seasons/
+[3] https://medium.com/re-hoop-per-rate/training-a-neural-network-to-fill-out-my-march-madness-bracket-2e5ee562eab1
 
 #### Images
 - https://websterapartments.org/wp-content/uploads/2015/03/MarchMadness-main-1024x394.jpg
