@@ -47,18 +47,18 @@ Once the data was processed into the appropriate input arrays for training and t
 
 #### Linear Regression
 Linear Regression was the first algorithm we successfully implemented. It returned a classification range from -30 to 400, so we had to normalize our data between 0 and 1 to obtain the probabilities of a team winning in a particular matchup. 
+Log Loss: 0.6321334547789854
 
 #### Ridge Regression
 Once we had Linear Regression implemented, it was very easy to add Ridge and Lasso Regressions in. We chose to use Ridge Regression to prevent overfitting our model to our training data, and it proved helpful.
-Log Loss:
-Accuracy:
+Log Loss: 0.6321048566701682 
 
 #### Lasso Regression
 We hadn't planned on using Lasso Regression, but since it was a quick implementation with sklearn, we added it to our set of models. It was the worst by far. 
-Log Loss:
-Accuracy:
+Log Loss: 4.29240442615355
 
 #### K-Nearest Neighbors
+KNN was the first of our methods that had a log loss below .6, so we also calculated our accuracy of model's predictions of the 2018-2019 bracket. 
 Log Loss:  0.5833062453519248
 Accuracy: 0.7142857142857143
 
@@ -79,6 +79,7 @@ Accuracy: 0.8412698412698413
 # Conclusion
 
 #### Which method had the most accuracy?
+Our log loss was at its worst with Lasso Regression, at a high of 4.3. At its lowest, we achieved .409 with Gradient Boosting for our tournament prediction. Our accuracy reached a peak at 84% with Gradient Boosting, which is a huge improvement over our goal of 76% accuracy. 
 
 
 # References
