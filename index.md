@@ -80,10 +80,11 @@ Accuracy: 0.8412698412698413
 # Conclusion
 
 #### Which method had the most accuracy?
-Our log loss was at its worst with Lasso Regression, at a high of 4.3. At its lowest, we achieved .409 with Gradient Boosting for our tournament prediction. Our accuracy reached a peak at 84% with Gradient Boosting, which is a huge improvement over our goal of 76% accuracy. 
+Our log loss was at its worst with Lasso Regression, at a high of 4.3. At its lowest, we achieved .409 with Gradient Boosting for our tournament prediction. Our accuracy reached a peak at 84% with Gradient Boosting, which is a huge improvement over our goal of 76% accuracy. Below we have a comparison of the log loss of our algorithms (excluding Lasso) as well as our best predicted bracket for the 2018-2019 tournament. 
 
 ![alt text](/graphs/methodcomparison.png)
 
+![alt text](./Bracket.png)
 
 # References
 (Still need to cite these resources properly)
