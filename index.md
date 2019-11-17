@@ -46,20 +46,20 @@ After getting our data, we needed to reformat the data, which was in csv files, 
 Once the data was processed into the appropriate input arrays for training and testing, we needed to actually pick models to train. There has been a huge variety of successful algorithms used by a number of experts in the field for related problems, and no particular choice stood out among the pack. Because of this, we decided to test a variety of popular algorithms to fully explore the possibilities. In particular, we focused on several classification algorithms to differentiate winners from losers.
 
 #### Linear Regression
-Linear Regression was the first algorithm we successfully implemented. It returned a classification range from -30 to 400, so we had to normalize our data between 0 and 1 to obtain the probabilities of a team winning in a particular matchup. 
+Linear Regression was the first algorithm we successfully implemented. It returned a classification range from -30 to 400, so we had to normalize our data between 0 and 1 to obtain the probabilities of a team winning in a particular matchup.  
 Log Loss: 0.6321334547789854
 
 #### Ridge Regression
-Once we had Linear Regression implemented, it was very easy to add Ridge and Lasso Regressions in. We chose to use Ridge Regression to prevent overfitting our model to our training data, and it proved helpful.
+Once we had Linear Regression implemented, it was very easy to add Ridge and Lasso Regressions in. We chose to use Ridge Regression to prevent overfitting our model to our training data, and it proved helpful.  
 Log Loss: 0.6321048566701682 
 
 #### Lasso Regression
-We hadn't planned on using Lasso Regression, but since it was a quick implementation with sklearn, we added it to our set of models. It was the worst by far. 
+We hadn't planned on using Lasso Regression, but since it was a quick implementation with sklearn, we added it to our set of models. It was the worst by far.  
 Log Loss: 4.29240442615355
 
 #### K-Nearest Neighbors
-KNN was the first of our methods that had a log loss below .6, so we also calculated our accuracy of model's predictions of the 2018-2019 bracket. 
-Log Loss:  0.5833062453519248
+KNN was the first of our methods that had a log loss below .6, so we also calculated our accuracy of model's predictions of the 2018-2019 bracket.  
+Log Loss:  0.5833062453519248  
 Accuracy: 0.7142857142857143
 
 #### Neural Nets
@@ -69,13 +69,13 @@ For neural net, we had five layers, and each layer used the sigmoid as the activ
 Accuracy: 0.7619048
 Test loss: 0.6118477860455791
 
-#### Random Forest
-Log Loss for Proba:  0.418003472525696
-Accuracy: 0.8253968253968254
+#### Random Forest  
+Log Loss for Proba:  0.418003472525696  
+Accuracy: 0.8253968253968254  
 
-#### Gradient Boosting
-Log Loss for Proba:  0.409139681201835
-Accuracy: 0.8412698412698413
+#### Gradient Boosting  
+Log Loss for Proba:  0.409139681201835  
+Accuracy: 0.8412698412698413  
 
 # Conclusion
 
