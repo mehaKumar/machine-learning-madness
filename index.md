@@ -90,11 +90,17 @@ Our log loss was at its worst with Linear Regression at 0.63213. At its lowest, 
 
 # References
 [1] https://www.wonderopolis.org/wonder/what-is-march-madness
+
 [2] https://www.sports-reference.com/cbb/seasons/
+
 [3] https://medium.com/re-hoop-per-rate/training-a-neural-network-to-fill-out-my-march-madness-bracket-2e5ee562eab1
+
 [4] https://www.kaggle.com/c/mens-machine-learning-competition-2019/leaderboard
+
 [5] https://www.geeksforgeeks.org/ml-linear-regression/
+
 [6] https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
 #### Images
 - https://websterapartments.org/wp-content/uploads/2015/03/MarchMadness-main-1024x394.jpg
 - https://www.ncaa.com/sites/default/files/public/styles/original/public-s3/images/2019/04/09/ncaa-tournament-bracket-2019-scores-games-virginia-texas-tech.png?itok=0E3VNWmI
